@@ -1,0 +1,46 @@
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  margin: 0;
+  padding: 16px;
+  background: #0f172a;
+  color: #e5e7eb;
+}
+
+h1 {
+  font-size: 1.25rem;
+  margin-bottom: 16px;
+}
+
+.controls {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+input[type="file"] {
+  background: #1e293b;
+  color: #e5e7eb;
+  padding: 10px;
+  border-radius: 6px;
+}
+
+button {
+  padding: 12px;
+  border-radius: 8px;
+  border: none;
+  font-size: 1rem;
+  background: #3b82f6;
+  color: white;
+}
+
+button:disabled {
+  opacity: 0.5;
+}
+
+canvas {
+  width: 100%;
+  border: 1px solid #334155;
+  border-radius: 8px;
+  margin-top: 12px;
+}
